@@ -12,6 +12,17 @@ description: >-
   with select exposure in Latin America (notably Brazil and Mexico). With a portfolio of 90+ companies,
   Bullpen's notable investments include FanDuel, Namely, Classy, Braze, HomeLight, ipsy, SpotHero,
   Splitwise, and Wag.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 image: https://www.bullpencap.com/favicon.ico
 x-type: venture-capital
 x-category: Micro VC

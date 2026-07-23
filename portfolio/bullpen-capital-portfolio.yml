@@ -3,109 +3,123 @@ method: searched
 source: https://www.bullpencap.com/companies
 summary:
   portfolio_total: 92
-  in_network: 12
-  api_providers: 7
-  missing: 80
+  in_network: 92
+  api_providers: 19
+  missing: 0
   stubs_created: 0
 companies:
 - name: Super
   url: https://super.gs
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: super
+  slug: super
+  matched_by: domain
 - name: Creed
   url: https://usecreed.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: creed
+  in_network: true
+  is_api_provider: true
+  slug: creed
+  matched_by: domain
 - name: Arro
   url: https://www.arrofinance.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: arro
+  slug: arro
+  matched_by: domain
 - name: All3D
   url: https://www.all3d.ai
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: all3d
+  slug: all3d
+  matched_by: domain
 - name: Daash
   url: http://daash.co
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: daash
+  slug: daash
+  matched_by: domain
 - name: EQL Games
   url: https://www.eqlgames.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: eql-games
+  slug: eql-games
+  matched_by: domain
 - name: Jolly
   url: http://jolly.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jolly
+  slug: jolly
+  matched_by: domain
 - name: PredictionStrike
   url: https://www.predictionstrike.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: predictionstrike
+  slug: predictionstrike
+  matched_by: domain
 - name: PackageX
   url: https://packagex.io
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: packagex
+  in_network: true
+  is_api_provider: true
+  slug: packagex
+  matched_by: domain
 - name: Camp
   url: http://www.camp.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: camp
+  slug: camp
+  matched_by: domain
 - name: All City Network
   url: https://allcitynetwork.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: all-city-network
+  slug: all-city-network
+  matched_by: domain
 - name: Switchyards
   url: https://switchyards.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: switchyards
+  slug: switchyards
+  matched_by: domain
 - name: ThriveFantasy
   url: https://www.thrivefantasy.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: thrivefantasy
+  slug: thrivefantasy
+  matched_by: domain
 - name: Preveta
   url: https://preveta.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: preveta
+  slug: preveta
+  matched_by: domain
 - name: Pinata
   url: https://gopinata.com
   status: unknown
@@ -118,90 +132,102 @@ companies:
   url: https://edgemarkets.io
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: edge-markets
+  slug: edge-markets
+  matched_by: domain
 - name: Wonder
   url: http://askwonder.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wonder
+  slug: wonder
+  matched_by: name-slug
 - name: Fanimal
   url: https://fanimal.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fanimal
+  slug: fanimal
+  matched_by: domain
 - name: Draftea
   url: https://www.draftea.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: draftea
+  slug: draftea
+  matched_by: domain
 - name: Beryllium
   url: https://www.beryllium.ai
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: beryllium
+  slug: beryllium
+  matched_by: name-slug
 - name: CruxOCM
   url: https://www.cruxocm.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: cruxocm
+  slug: cruxocm
+  matched_by: domain
 - name: Happs
   url: https://happs.co/feed
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: happs
+  slug: happs
+  matched_by: domain
 - name: Rei do Pitaco
   url: https://www.reidopitaco.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: rei-do-pitaco
+  slug: rei-do-pitaco
+  matched_by: domain
 - name: Roofr
   url: https://roofr.com
   description: Software platform for roofing contractors.
   sector: saas
   status: active
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: roofr
+  slug: roofr
+  matched_by: domain
 - name: Ocrolus
   url: https://ocrolus.com
   description: Document automation and analysis for financial services.
   sector: fintech
   status: active
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: ocrolus
+  in_network: true
+  is_api_provider: true
+  slug: ocrolus
+  matched_by: domain
 - name: Atrium
   url: https://www.atriumhq.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: atrium
+  slug: atrium
+  matched_by: domain
 - name: Blueboard
   url: http://www.blueboard.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: blueboard
+  slug: blueboard
+  matched_by: domain
 - name: Classy
   url: https://www.classy.org
   description: Online fundraising platform for nonprofits.
@@ -216,32 +242,36 @@ companies:
   url: https://confidentcannabis.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: confident-cannabis
+  in_network: true
+  is_api_provider: true
+  slug: confident-cannabis
+  matched_by: domain
 - name: Fama
   url: https://fama.io
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fama
+  slug: fama
+  matched_by: domain
 - name: Grassroots Unwired
   url: http://grassrootsunwired.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grassroots-unwired
+  slug: grassroots-unwired
+  matched_by: domain
 - name: Improvado
   url: https://improvado.io
   description: Marketing analytics and data aggregation platform.
   sector: marketing
   status: active
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: improvado
+  slug: improvado
+  matched_by: domain
 - name: Namely
   url: https://www.namely.com
   description: HR, payroll and benefits platform for mid-sized companies.
@@ -256,37 +286,42 @@ companies:
   url: https://paper.co
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paper
+  slug: paper
+  matched_by: name-slug
 - name: SpaceIQ
   url: https://spaceiq.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: spaceiq
+  slug: spaceiq
+  matched_by: domain
 - name: Ureeka
   url: https://www.ureeka.biz
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ureeka
+  slug: ureeka
+  matched_by: domain
 - name: Manufactured
   url: https://manufactured.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: manufactured
+  slug: manufactured
+  matched_by: domain
 - name: Entera
   url: https://www.entera.ai
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: entera
+  slug: entera
+  matched_by: domain
 - name: Braze
   url: https://www.braze.com
   description: Customer engagement and messaging platform.
@@ -309,32 +344,36 @@ companies:
   url: https://www.barn2door.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: barn2door
+  slug: barn2door
+  matched_by: domain
 - name: Beyond Pricing
   url: http://beyondpricing.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: beyond-pricing
+  in_network: true
+  is_api_provider: true
+  slug: beyond-pricing
+  matched_by: domain
 - name: FlexEngage
   url: https://www.flexengage.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flexengage
+  slug: flexengage
+  matched_by: domain
 - name: GRIN
   url: https://grin.co
   description: Creator and influencer marketing management platform.
   sector: marketing
   status: active
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grin
+  slug: grin
+  matched_by: domain
 - name: Modal
   url: https://modalup.com
   status: unknown
@@ -347,51 +386,58 @@ companies:
   url: https://www.navistone.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: navistone
+  in_network: true
+  is_api_provider: true
+  slug: navistone
+  matched_by: domain
 - name: Octane AI
   url: https://octaneai.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: octane-ai
+  slug: octane-ai
+  matched_by: domain
 - name: Plink
   url: https://www.plink.ai
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: plink
+  slug: plink
+  matched_by: domain
 - name: OpenLattice
   url: https://openlattice.com/#
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: openlattice
+  in_network: true
+  is_api_provider: true
+  slug: openlattice
+  matched_by: domain
 - name: Tank Utility
   url: https://tankutility.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: tank-utility
+  in_network: true
+  is_api_provider: true
+  slug: tank-utility
+  matched_by: domain
 - name: Nanome
   url: https://nanome.ai
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: nanome
+  slug: nanome
+  matched_by: domain
 - name: BeBop Sensors
   url: https://www.bebopsensors.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: bebop-sensors
+  slug: bebop-sensors
+  matched_by: name-slug
 - name: Hologram
   url: https://hologram.io
   description: Global cellular connectivity platform for IoT devices.
@@ -406,23 +452,26 @@ companies:
   url: https://www.liveintent.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: liveintent
+  slug: liveintent
+  matched_by: domain
 - name: OnsiteIQ
   url: https://www.onsiteiq.io
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: onsiteiq
+  slug: onsiteiq
+  matched_by: name-slug
 - name: Reniac
   url: https://www.reniac.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: reniac
+  slug: reniac
+  matched_by: domain
 - name: SkyWatch
   url: https://www.skywatch.com
   status: unknown
@@ -435,63 +484,70 @@ companies:
   url: https://windfalldata.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: windfall-data
+  in_network: true
+  is_api_provider: true
+  slug: windfall-data
+  matched_by: domain
 - name: AirMap
   url: https://airmap.com
   description: Airspace management platform for drones.
   sector: infrastructure
   status: acquired
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: airmap
+  slug: airmap
+  matched_by: domain
 - name: Swish Analytics
   url: https://swishanalytics.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: swish-analytics
+  in_network: true
+  is_api_provider: true
+  slug: swish-analytics
+  matched_by: domain
 - name: Citus Data
   url: https://www.citusdata.com
   description: Distributed database scaling PostgreSQL (acquired by Microsoft).
   sector: developer-tools
   status: acquired
   source: https://www.bullpencap.com/companies
-  slug: microsoft-azure
+  slug: citus-data
   in_network: true
-  is_api_provider: true
+  is_api_provider: false
   matched_by: domain
 - name: About.me
   url: https://about.me
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: aboutme
+  slug: aboutme
+  matched_by: domain
 - name: Rainway
   url: https://rainway.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: rainway
+  in_network: true
+  is_api_provider: true
+  slug: rainway
+  matched_by: domain
 - name: Hemster
   url: https://hemster.co
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: hemster
+  slug: hemster
+  matched_by: domain
 - name: Starcity
   url: http://starcity.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: starcity
+  slug: starcity
+  matched_by: domain
 - name: FanDuel
   url: https://www.fanduel.com
   description: Daily fantasy sports and sports betting platform.
@@ -506,101 +562,114 @@ companies:
   url: https://www.flickapp.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: flick
+  slug: flick
+  matched_by: name-slug
 - name: Gameflip
   url: https://gameflip.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: gameflip
+  in_network: true
+  is_api_provider: true
+  slug: gameflip
+  matched_by: domain
 - name: Jackpocket
   url: https://jackpocket.com
   description: Mobile lottery app (acquired by DraftKings).
   sector: gaming
   status: acquired
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jackpocket
+  slug: jackpocket
+  matched_by: domain
 - name: Ranker
   url: https://www.ranker.com
   description: Crowdsourced rankings and lists platform.
   sector: consumer
   status: active
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ranker
+  slug: ranker
+  matched_by: domain
 - name: Relish
   url: https://hellorelish.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: relish
+  slug: relish
+  matched_by: domain
 - name: Splitwise
   url: https://www.splitwise.com
   description: App for splitting bills and shared expenses.
   sector: consumer
   status: active
   source: https://www.bullpencap.com/companies
-  in_network: false
-  is_api_provider: false
-  suggested_slug: splitwise
+  in_network: true
+  is_api_provider: true
+  slug: splitwise
+  matched_by: domain
 - name: TakeWheels
   url: https://takewheels.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: takewheels
+  slug: takewheels
+  matched_by: domain
 - name: Sisu Clinic
   url: https://www.sisuclinic.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: sisu-clinic
+  slug: sisu-clinic
+  matched_by: domain
 - name: Jump Ramp Games
   url: https://jumprampgames.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: jump-ramp-games
+  slug: jump-ramp-games
+  matched_by: domain
 - name: RippleMatch
   url: https://ripplematch.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ripplematch
+  slug: ripplematch
+  matched_by: domain
 - name: Herb
   url: https://herb.co
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: herb
+  slug: herb
+  matched_by: domain
 - name: Wag
   url: https://wagwalking.com
   description: On-demand dog walking and pet care marketplace.
   sector: marketplaces
   status: active
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: wag
+  slug: wag
+  matched_by: domain
 - name: Twenty20
   url: https://www.twenty20.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: twenty20
+  slug: twenty20
+  matched_by: domain
 - name: HomeLight
   url: https://www.homelight.com
   description: Real estate platform connecting buyers and sellers with agents.
@@ -615,71 +684,80 @@ companies:
   url: https://www.fakespot.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: fakespot
+  slug: fakespot
+  matched_by: domain
 - name: ipsy
   url: http://ipsy.com
   description: Beauty product subscription and personalization service.
   sector: commerce
   status: active
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: ipsy
+  slug: ipsy
+  matched_by: domain
 - name: Grove Collaborative
   url: https://grove.co
   description: Sustainable household and personal care products.
   sector: commerce
   status: active
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: grove-collaborative
+  slug: grove
+  matched_by: domain
 - name: AvantStay
   url: https://avantstay.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: avantstay
+  slug: avantstay
+  matched_by: domain
 - name: CoverHound
   url: https://coverhound.com
   description: Online insurance comparison marketplace.
   sector: fintech
   status: acquired
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: coverhound
+  slug: coverhound
+  matched_by: domain
 - name: Lawn Love
   url: https://lawnlove.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: lawn-love
+  slug: lawn-love
+  matched_by: domain
 - name: Merchbar
   url: https://www.merchbar.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: merchbar
+  slug: merchbar
+  matched_by: domain
 - name: PaintZen
   url: https://www.paintzen.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: paintzen
+  slug: paintzen
+  matched_by: domain
 - name: Saucey
   url: https://www.saucey.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: saucey
+  slug: saucey
+  matched_by: domain
 - name: SpotHero
   url: https://spothero.com
   description: Marketplace for reserving parking spots.
@@ -694,13 +772,15 @@ companies:
   url: https://www.suiteness.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: suiteness
+  slug: suiteness
+  matched_by: domain
 - name: Mango Health
   url: https://www.mangohealth.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: false
+  in_network: true
   is_api_provider: false
-  suggested_slug: mango-health
+  slug: mango-health
+  matched_by: domain
