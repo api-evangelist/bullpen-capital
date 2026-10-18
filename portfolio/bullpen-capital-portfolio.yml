@@ -3,9 +3,9 @@ method: searched
 source: https://www.bullpencap.com/companies
 summary:
   portfolio_total: 92
-  in_network: 92
-  api_providers: 19
-  missing: 0
+  in_network: 88
+  api_providers: 22
+  missing: 4
   stubs_created: 0
 companies:
 - name: Super
@@ -124,10 +124,10 @@ companies:
   url: https://gopinata.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  slug: pinata
-  in_network: true
-  is_api_provider: true
-  matched_by: name-slug
+  in_network: false
+  is_api_provider: false
+  x-name-collision: pinata
+  suggested_slug: gopinata-com
 - name: Edge Markets
   url: https://edgemarkets.io
   status: unknown
@@ -140,10 +140,10 @@ companies:
   url: http://askwonder.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: wonder
-  matched_by: name-slug
+  x-name-collision: wonder
+  suggested_slug: askwonder-com
 - name: Fanimal
   url: https://fanimal.com
   status: unknown
@@ -174,7 +174,7 @@ companies:
   source: https://www.bullpencap.com/companies
   in_network: true
   is_api_provider: false
-  slug: cruxocm
+  slug: crux-ocm
   matched_by: domain
 - name: Happs
   url: https://happs.co/feed
@@ -251,7 +251,7 @@ companies:
   status: unknown
   source: https://www.bullpencap.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: fama
   matched_by: domain
 - name: Grassroots Unwired
@@ -269,7 +269,7 @@ companies:
   status: active
   source: https://www.bullpencap.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: improvado
   matched_by: domain
 - name: Namely
@@ -278,9 +278,9 @@ companies:
   sector: hr-tech
   status: acquired
   source: https://www.bullpencap.com/companies
-  slug: hr-and-people
+  slug: namely
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   matched_by: domain
 - name: Paper
   url: https://paper.co
@@ -378,10 +378,9 @@ companies:
   url: https://modalup.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  slug: modal
-  in_network: true
+  in_network: false
   is_api_provider: false
-  matched_by: name-slug
+  suggested_slug: modal
 - name: NaviStone
   url: https://www.navistone.com
   status: unknown
@@ -453,7 +452,7 @@ companies:
   status: unknown
   source: https://www.bullpencap.com/companies
   in_network: true
-  is_api_provider: false
+  is_api_provider: true
   slug: liveintent
   matched_by: domain
 - name: OnsiteIQ
@@ -562,10 +561,10 @@ companies:
   url: https://www.flickapp.com
   status: unknown
   source: https://www.bullpencap.com/companies
-  in_network: true
+  in_network: false
   is_api_provider: false
-  slug: flick
-  matched_by: name-slug
+  x-name-collision: flick
+  suggested_slug: flickapp-com
 - name: Gameflip
   url: https://gameflip.com
   status: unknown
@@ -706,7 +705,7 @@ companies:
   source: https://www.bullpencap.com/companies
   in_network: true
   is_api_provider: false
-  slug: grove
+  slug: grove-collaborative
   matched_by: domain
 - name: AvantStay
   url: https://avantstay.com

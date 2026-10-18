@@ -1,4 +1,32 @@
-generated: '2026-07-22'
+generated: '2026-10-18'
 method: derived
 source_vc: bullpen-capital
-leads: []
+leads:
+- name: Pinata
+  url: https://gopinata.com
+  suggested_slug: gopinata-com
+  sector: ''
+  source_vc: bullpen-capital
+  source: https://www.bullpencap.com/companies
+  stub_created: false
+- name: Wonder
+  url: http://askwonder.com
+  suggested_slug: askwonder-com
+  sector: ''
+  source_vc: bullpen-capital
+  source: https://www.bullpencap.com/companies
+  stub_created: false
+- name: Modal
+  url: https://modalup.com
+  suggested_slug: modal
+  sector: ''
+  source_vc: bullpen-capital
+  source: https://www.bullpencap.com/companies
+  stub_created: false
+- name: Flick
+  url: https://www.flickapp.com
+  suggested_slug: flickapp-com
+  sector: ''
+  source_vc: bullpen-capital
+  source: https://www.bullpencap.com/companies
+  stub_created: false
